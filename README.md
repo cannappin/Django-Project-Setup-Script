@@ -1,59 +1,56 @@
 
-# Django Project Setup Script
+# Script de configuration de projet Django
 
-This script automates the setup of a new Django project on your local machine, including the creation of a virtual environment, installation of Django, creation of a new project, and setup of a Git repository linked to a remote repository on GitHub.
+Ce script automatise la configuration d'un nouveau projet Django sur votre machine locale, y compris la création d'un environnement virtuel, l'installation de Django, la création d'un nouveau projet et la configuration d'un dépôt Git lié à un dépôt distant sur GitHub.
 
 ## Description
 
-This script prompts the user to enter the name of a virtual environment, the name of a Django project, and a GitHub repository URL. It then performs the following actions:
+Ce script invite l'utilisateur à entrer le nom d'un environnement virtuel, le nom d'un projet Django et une URL de dépôt GitHub. Il effectue ensuite les actions suivantes :
 
-- Creates a new virtual environment with the given name.
-- Activates the virtual environment.
-- Installs Django in the virtual environment.
-- Creates a new Django project with the given name.
-- Initializes a new Git repository in the project directory.
-- Adds the remote GitHub repository as the origin.
-- Pulls the latest changes from the master branch of the remote repository.
-- Adds all the files in the project directory to the staging area.
-- Commits the changes with the given message.
-- Pushes the changes to the master branch of the remote repository.
-- Starts the Django development server.
+- Crée un nouvel environnement virtuel avec le nom donné.
+- Active l'environnement virtuel.
+- Installe Django dans l'environnement virtuel.
+- Crée un nouveau projet Django avec le nom donné.
+- Initialise un nouveau dépôt Git dans le répertoire du projet.
+- Ajoute le dépôt distant GitHub comme origine.
+- Récupère les dernières modifications de la branche principale du dépôt distant.
+- Ajoute tous les fichiers du répertoire du projet à la zone de staging.
+- Effectue un commit avec le message donné.
+- Pousse les modifications sur la branche principale du dépôt distant.
+- Lance le serveur de développement Django.
 
+## Prérequis
 
+ - Python 3.x
+ - Git
+- Un compte GitHub
 
+## Utilisation
 
-## Requirements
-- Python 3.x
-- Git
-- A GitHub account
+    1. Téléchargez ou clonez ce dépôt sur votre ordinateur.
+    2. Ouvrez un terminal et naviguez jusqu'au répertoire contenant le fichier mon_code.bat.
+    3. Exécutez le script en tapant mon_code.bat et en appuyant sur entrée.
+    4. Suivez les instructions et entrer les informations nécessaires :
+        Nom du répertoire de base
+        Nom de l'environnement virtuel
+        Nom du projet Django
+        URL du dépôt GitHub
+    5. Une fois que le script a terminé, vous pouvez choisir de lancer le serveur de développement Django en tapant "y" lorsqu'on vous le demande.
 
-## Usage
-
-    1.Download or clone this repository to your computer.
-    2.Open a terminal and navigate to the directory containing the mon_code.bat file.
-    3.Run the script by typing mon_code.bat and pressing enter.
-    4.Follow the prompts to enter the necessary information:
-        Base directory name
-        Virtual environment name
-        Django project name
-        GitHub repository URL
-    5.Once the script has finished, you can choose to start the Django development server by typing "y" when prompted.
-
-
-## Example
-
-Enter the name of the base directory where everything will be stored: Projects   
-Enter the name of the virtual environment: venv  
-Enter the name of the Django project: my_project   
-Enter the GitHub repository URL: https://github.com/username/repository_name.git
+## Exemple 
+    Entrez le nom du répertoire de base où tout sera stocké: Projets
+    Entrez le nom de l'environnement virtuel: venv
+    Entrez le nom du projet Django: mon_projet
+    Entrez l'URL du dépôt GitHub: https://github.com/nom_utilisateur/nom_du_dépôt.git
 
 ## Notes
-The script assumes that you have already installed Python and Git on your system.
-The virtual environment will be created in the base directory.
-The .gitignore file will exclude the virtual environment directory.
-The script will initialize a Git repository, make an initial commit, and push the commit to the remote repository.
-    
-## Authors
+Le script suppose que vous avez déjà installé Python et Git sur votre système.  
+L'environnement virtuel sera créé dans le répertoire de base.  
+Le fichier .gitignore exclura le répertoire de l'environnement virtuel.  
+Le script initialisera un dépôt Git, effectuera un commit initial et poussera le commit vers le dépôt distant.
+
+
+## Auteur
 
 - [@cannappin](https://github.com/cannappin)
 
