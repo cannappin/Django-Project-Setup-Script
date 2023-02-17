@@ -1,9 +1,9 @@
 @echo off
 
-set /p base_dir_name="Enter the name of the base directory: "
-set /p env_name="Enter the name of the virtual environment: "
-set /p project_name="Enter the name of the Django project: "
-set /p repo_url="Enter the URL of your GitHub repository: "
+set /p base_dir_name="Entrez le nom du répertoire de base où tout sera stocké: "
+set /p env_name="Entrez le nom de l'environnement virtuel: "
+set /p project_name="Entrez le nom du projet Django: "
+set /p repo_url="Entrez l'URL du dépôt GitHub: "
 
 if not exist %base_dir% mkdir %base_dir%
 cd %base_dir_name%
