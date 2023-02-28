@@ -25,6 +25,5 @@ git add .
 git commit -m "Initial commit"
 git push -u origin master
 code .
-python manage.py runserver & start http://localhost:8000/
-
-
+python manage.py runserver 
+start http://localhost:8000/
