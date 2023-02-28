@@ -28,14 +28,14 @@ Ce script invite l'utilisateur à entrer le nom d'un environnement virtuel, le n
 ## Utilisation
 
     1. Téléchargez ou clonez ce dépôt sur votre ordinateur.
-    2. Ouvrez un terminal Git bash a l'endroit ou se trouve le script create_django_project.sh
+    2. Ouvrez un terminal Git bash a l'endroit ou se trouve le script "create_django_project.sh"
     3. Exécutez la commande : << chmod +x create_django_project.sh  >>   puis   << ./create_django_project.sh  >>
     4. Suivez les instructions et entrer les informations nécessaires :
         Nom du répertoire de base
         Nom de l'environnement virtuel
         Nom du projet Django
         URL du dépôt GitHub
-    5. Une fois que le script a terminé, vous pouvez choisir de lancer le serveur de développement Django en tapant "y" lorsqu'on vous le demande.
+    5. Une fois que le script terminé, le serveur de développement Django se lance.
 
 ## Exemple 
     Entrez le nom du répertoire de base où tout sera stocké: Projets
@@ -44,7 +44,7 @@ Ce script invite l'utilisateur à entrer le nom d'un environnement virtuel, le n
     Entrez l'URL du dépôt GitHub: https://github.com/nom_utilisateur/nom_du_dépôt.git
 
 ## Notes
-Le script suppose que vous avez déjà installé Python et Git sur votre système.  
+Le script suppose que vous avez déjà installé Python, Git sur votre système et que vous disposez d'un depot Github distant vide (ou avec un readme).  
 L'environnement virtuel sera créé dans le répertoire de base.  
 Le fichier .gitignore exclura le répertoire de l'environnement virtuel.  
 Le script initialisera un dépôt Git, effectuera un commit initial et poussera le commit vers le dépôt distant.
