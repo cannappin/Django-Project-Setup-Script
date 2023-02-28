@@ -28,7 +28,7 @@ Ce script invite l'utilisateur à entrer le nom d'un environnement virtuel, le n
 ## Utilisation
 
     1. Téléchargez ou clonez ce dépôt sur votre ordinateur.
-    2. Ouvrez un terminal et naviguez jusqu'au répertoire contenant le fichier django_setup.bat.
+    2. Ouvrez un terminal Git bash 
     3. Exécutez le script en tapant django_setup.bat et en appuyant sur entrée.
     4. Suivez les instructions et entrer les informations nécessaires :
         Nom du répertoire de base
